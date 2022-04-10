@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 
-<body class="bg-primary h-100">
+<body class="h-100 bg-light">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
@@ -19,9 +19,9 @@
 
 
 
-    <main class="container-fluid bg-body p-3 vh-75" style="border-radius:1rem 1rem;;">
+    <main class="container-fluid bg-body p-3">
         <div id="resualt">
-            <div id="record-last">
+            <div id="record-last" class="d-flex justify-content-between flex-wrap">
                 <div>
                     <div id="name">
                         <p>闫晓璐(本人)</p>
@@ -31,43 +31,46 @@
                     </div>
                 </div>
                 <div id="logo">
-                    <img src="" alt="">
+                    <img src="./img/logo.png" alt="" style="width: 50px;height: 50px;">
                 </div>
-                <hr>
-                <div>
+                <div class="d-flex vw-100">
+                    <hr>
+                </div>
+                <div class="d-flex flex-wrap">
                     <p>采样时间: 2022-04-08 21:48:45</p>
                     <p>检测时间: 2022-04-09 05:24:26</p>
                     <p>检测机构:神木市医院</p>
                 </div>
-                <div>
-                    <p>注：7天内的核酸检测和抗体检测数据在不断汇聚和完善中，查询结果仅供参考。</p>
-                </div>
             </div>
-           
 
+
+        </div>
+
+        <div>
+            <p class="text-muted">注：7天内的核酸检测和抗体检测数据在不断汇聚和完善中，查询结果仅供参考。</p>
         </div>
     </main>
 
 
 
-    <nav class="d-flex justify-content-between border navbar fixed-bottom bg-light" style="height: 100px;">
-        <ul class="nav row vw-auto">
+    <nav class="d-flex justify-content-between border navbar fixed-bottom bg-light" style="height: 80px;">
+        <ul class="nav row vw-100">
             <li class="col nav-item pl-2">
                 <a href="" class=" nav-link  text-center disabled">
-                    <i class="bi bi-shield-fill-plus text-primary" style="font-size: 2rem;color: gray;"></i>
-                    <p style="font-size: 0.8rem;">首页</p>
+                    <i class="bi bi-shield-fill-plus" style="font-size: 1.5rem; color: gray;"></i>
+                    <p style="font-size: 0.5rem;">首页</p>
                 </a>
             </li>
             <li class="col nav-item">
                 <a href="" class="text-muted nav-link disabled text-center">
-                    <i class="bi bi-plus-square-dotted" style="font-size: 2rem; color: gray;"></i>
-                    <p style="font-size: 0.8rem;">绑定人员码</p>
+                    <i class="bi bi-plus-square-dotted" style="font-size: 1.5rem; color: gray;"></i>
+                    <p style="font-size: 0.5rem;">绑定人员码</p>
                 </a>
             </li>
             <li class="col nav-item">
-                <a href="" class="nav-link  text-center active">
-                    <i class="bi bi-file-text" style="font-size: 2rem; "></i>
-                    <p style="font-size: 0.8rem;">核酸结果</p>
+                <a href="./index.html" class="nav-link  text-center active">
+                    <i class="bi bi-file-text" style="font-size: 1.5rem;"></i>
+                    <p style="font-size: 0.5rem;">核酸结果</p>
                 </a>
             </li>
         </ul>
