@@ -1,0 +1,65 @@
+﻿@page "/{Id?}"
+
+<PageTitle>榆林市核酸检测应急平台</PageTitle>
+<style type="text/css">
+    #text {
+        color: #31497e;
+    }
+</style>
+<header class="container-fluid p-3  bg-primary ">
+    <div class=" d-flex justify-content-between ">
+        <div class="text-light " style="font-size: 16px;">@Name</div>
+        <div class="text-light " style="font-size: 16px;">注销</div>
+    </div>
+</header>
+<main class="container-fluid bg-body p-3 vh-100" style="border-radius:1rem 1rem;;">
+    <div class="mx-3" style="border-radius: 2rem;box-shadow: 1.333333vw 1.333333vw 4vw 1px #c1deff;">
+        <div id="person-info " class="d-flex justify-content-center vh-50 pt-3 mt-3">
+            <div id="avantar" class="mx-2">
+                <img class="" src="./img/avatar.png" alt="" style="width: 50px;height: 50px;">
+            </div>
+            <div class="">
+                <div id="name text" class="fs-5">@Name.Substring(0,1)**(本人)</div>
+                <div id="id" class="fw-lighter text-muted" style="font-size: 12px;">证件号码：610103********1655</div>
+            </div>
+            <button id="edit-button" type="button" class="m-3 btn btn-primary"
+                style="border-radius: 1rem;width: 50px;height: 30px;font-size: 10px;">
+                编辑
+            </button>
+        </div>
+
+        <div id="qrcode p-5" class="d-flex justify-content-center px-5 mt-3">
+            <img class="justify-content-center" src="./img/qrcode.jpg" alt="" style="width: 248px;height:248px;">
+        </div>
+        <div class="d-flex justify-content-center">
+            <p id="text" class="m-2">点击二维码刷新</p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p id="text" class="m-2">@CurrentTime</p>
+        </div>
+        <div class="d-flex justify-content-center">
+
+            <button class="btn btn-primary mb-3 mt-3 w-75" style="border-radius: 1rem;">切换人员</button>
+        </div>
+    </div>
+</main>
+
+
+@code {
+    private string CurrentTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+    [Parameter]
+    public string? Id {get;set;}
+    public string? Name { get; set; }
+    protected override void OnInitialized()
+    {
+        if (Id == "lk")
+        {
+            Name = "李坤";
+        }
+        else
+        {
+            Name = "闫晓璐";
+        }
+
+    }
+}

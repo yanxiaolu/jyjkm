@@ -1,0 +1,40 @@
+@page "/resualt/{Id?}"
+
+<main class="container bg-light">
+    <div id="records-list" class="d-flex justify-content-start flex-wrap">
+        <div class="pt-3">         
+                <span class="fw-bold fs-5">@Name (本人)</span><br>
+                证件号码:610103********1655
+        </div>
+        <div id="logo" class="" style="margin-left: 3rem;margin-top:1rem;">
+            <img src="./img/logo.png" alt="" style="width: 70px;height: 70px;">
+        </div>
+        <hr class="w-100 mb-3" style="border-top: 1px solid;">
+        <span class="w-100 text-muted">采样时间: @CurrentTime 21:48:45</span>
+        <span class="w-100 text-muted">检测时间: @DetechTime 05:24:26</span>
+        <span class="w-100 text-muted">检测机构:神木市医院</span>
+    </div>
+</main>
+<div class="container p-3">
+    <p class="text-muted">注:7天内的核酸检测和抗体检测数据在不断汇聚和完善中,查询结果仅供参考。</p>
+</div>
+@code 
+{
+    [Parameter]
+    public string? Id {get;set;}
+    public string Name {get;set;}
+    private string CurrentTime = DateTime.Now.AddDays(-2).ToString("yyyy-MM-dd");
+    private string DetechTime = DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd");
+    protected override void OnInitialized()
+    {
+        if (Id == "lk")
+        {
+            Name = "李坤";
+        }
+        else
+        {
+            Name = "闫晓璐";
+        }
+
+    }
+}
