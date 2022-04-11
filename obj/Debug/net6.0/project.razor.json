@@ -78,59 +78,6 @@
         }
       },
       {
-        "HashCode": -447040783,
-        "Kind": "Components.Component",
-        "Name": "WebApp1.Pages.Index",
-        "AssemblyName": "WebApp1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApp1.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -43809560,
-        "Kind": "Components.Component",
-        "Name": "WebApp1.Pages.Index",
-        "AssemblyName": "WebApp1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApp1.Pages.Index"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApp1.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1916311224,
         "Kind": "Components.Component",
         "Name": "WebApp1.Pages.Resualt",
@@ -184,35 +131,55 @@
         }
       },
       {
-        "HashCode": 842360955,
+        "HashCode": -447040783,
         "Kind": "Components.Component",
-        "Name": "WebApp1.App",
+        "Name": "WebApp1.Pages.Index",
         "AssemblyName": "WebApp1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApp1.App"
+          "Common.TypeName": "WebApp1.Pages.Index"
         }
       },
       {
-        "HashCode": 1112992112,
+        "HashCode": -43809560,
         "Kind": "Components.Component",
-        "Name": "WebApp1.App",
+        "Name": "WebApp1.Pages.Index",
         "AssemblyName": "WebApp1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebApp1.App"
+            "TagName": "WebApp1.Pages.Index"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApp1.App",
+          "Common.TypeName": "WebApp1.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -395,6 +362,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "WebApp1.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 842360955,
+        "Kind": "Components.Component",
+        "Name": "WebApp1.App",
+        "AssemblyName": "WebApp1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApp1.App"
+        }
+      },
+      {
+        "HashCode": 1112992112,
+        "Kind": "Components.Component",
+        "Name": "WebApp1.App",
+        "AssemblyName": "WebApp1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebApp1.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApp1.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
