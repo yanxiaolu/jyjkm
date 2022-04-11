@@ -270,39 +270,6 @@
         }
       },
       {
-        "HashCode": -1741016041,
-        "Kind": "Components.Component",
-        "Name": "WebApp1.Shared.NavMenu",
-        "AssemblyName": "WebApp1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApp1.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1295147909,
-        "Kind": "Components.Component",
-        "Name": "WebApp1.Shared.NavMenu",
-        "AssemblyName": "WebApp1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApp1.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApp1.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1732750880,
         "Kind": "Components.Component",
         "Name": "WebApp1.Shared.MainLayout",
@@ -395,6 +362,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "WebApp1.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1741016041,
+        "Kind": "Components.Component",
+        "Name": "WebApp1.Shared.NavMenu",
+        "AssemblyName": "WebApp1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApp1.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1295147909,
+        "Kind": "Components.Component",
+        "Name": "WebApp1.Shared.NavMenu",
+        "AssemblyName": "WebApp1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebApp1.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApp1.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
