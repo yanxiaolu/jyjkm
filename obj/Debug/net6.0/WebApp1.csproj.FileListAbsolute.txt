@@ -25,3 +25,8 @@
 /Users/yanxl/Code/WebApp1/obj/Debug/net6.0/WebApp1.pdb
 /Users/yanxl/Code/WebApp1/obj/Debug/net6.0/WebApp1.genruntimeconfig.cache
 /Users/yanxl/Code/WebApp1/obj/Debug/net6.0/ref/WebApp1.dll
+/Users/yanxl/Code/WebApp1/bin/Debug/net6.0/myapp/web.config
+/Users/yanxl/Code/WebApp1/bin/Debug/net6.0/myapp/appsettings.Development.json
+/Users/yanxl/Code/WebApp1/bin/Debug/net6.0/myapp/appsettings.json
+/Users/yanxl/Code/WebApp1/bin/Debug/net6.0/myapp/WebApp1.deps.json
+/Users/yanxl/Code/WebApp1/bin/Debug/net6.0/myapp/WebApp1.runtimeconfig.json

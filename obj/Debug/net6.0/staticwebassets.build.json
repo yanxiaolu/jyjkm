@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yyXKYVR75c+NRkySWFoz5V0WPRoUS2cICqto6e12130=",
+  "Hash": "tmH+ePchmO/USOT1Ebwin2WHBh/E9NqV7s03Kh/0I/M=",
   "Source": "WebApp1",
   "BasePath": "_content/WebApp1",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/yanxl/Code/WebApp1/wwwroot/css/.DS_Store",
+      "SourceId": "WebApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yanxl/Code/WebApp1/wwwroot/",
+      "BasePath": "_content/WebApp1",
+      "RelativePath": "css/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/.DS_Store"
     },
     {
       "Identity": "/Users/yanxl/Code/WebApp1/wwwroot/css/bootstrap-grid.css",
@@ -202,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/yanxl/Code/WebApp1/wwwroot/css/bootstrap-icons.css",
+      "SourceId": "WebApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yanxl/Code/WebApp1/wwwroot/",
+      "BasePath": "_content/WebApp1",
+      "RelativePath": "css/bootstrap-icons.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/bootstrap-icons.css"
     },
     {
       "Identity": "/Users/yanxl/Code/WebApp1/wwwroot/css/bootstrap-reboot.css",
@@ -610,6 +644,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/yanxl/Code/WebApp1/wwwroot/css/fonts/bootstrap-icons.woff",
+      "SourceId": "WebApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yanxl/Code/WebApp1/wwwroot/",
+      "BasePath": "_content/WebApp1",
+      "RelativePath": "css/fonts/bootstrap-icons.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/fonts/bootstrap-icons.woff"
+    },
+    {
+      "Identity": "/Users/yanxl/Code/WebApp1/wwwroot/css/fonts/bootstrap-icons.woff2",
+      "SourceId": "WebApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yanxl/Code/WebApp1/wwwroot/",
+      "BasePath": "_content/WebApp1",
+      "RelativePath": "css/fonts/bootstrap-icons.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/fonts/bootstrap-icons.woff2"
     },
     {
       "Identity": "/Users/yanxl/Code/WebApp1/wwwroot/favicon.ico",
