@@ -22,7 +22,7 @@
 {
     [Parameter]
     public string? Id {get;set;}
-    public string Name {get;set;}
+    public string Name {get;set;} = string.Empty;
     private string CurrentTime = DateTime.Now.AddDays(-2).ToString("yyyy-MM-dd");
     private string DetechTime = DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd");
     protected override void OnInitialized()
