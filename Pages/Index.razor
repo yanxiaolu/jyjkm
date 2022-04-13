@@ -23,7 +23,7 @@
                 <div id="id" class="fw-lighter text-muted" style="font-size: 12px;">证件号码：610103********1655</div>
             </div>
             <button id="edit-button" type="button" class="m-3 btn btn-primary"
-                style="border-radius: 1rem;width: 50px;height: 30px;font-size: 10px;">
+                style="border-radius: 1rem;width: 52px;height: 30px;font-size: 10px;">
                 编辑
             </button>
         </div>
@@ -44,12 +44,13 @@
     </div>
 </main>
 
+<NavMenu Name = "@Id"/>
 
 @code {
     private string CurrentTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
     [Parameter]
-    public string? Id {get;set;}
-    public string? Name { get; set; }
+    public string? Id {get;set;} = string.Empty;
+    public string? Name { get; set; } = string.Empty;
     protected override void OnInitialized()
     {
         if (Id == "lk")

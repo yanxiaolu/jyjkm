@@ -6,7 +6,7 @@
     </style>
     <ul class="nav row vw-100">
         <li class="col nav-item">
-            <NavLink href="/" class=" nav-link text-center">
+            <NavLink href="@($"/{Name}")" class="nav-link text-center">
                 <i class="bi bi-shield-fill-plus" style="font-size: 1.6rem;"></i>
                 <p style="font-size: 0.8rem;margin-bottom: 0px;">首页</p>
             </NavLink>
@@ -18,7 +18,7 @@
             </NavLink>
         </li>
         <li class="col nav-item">
-            <NavLink href="resualt" class="nav-link text-center">
+            <NavLink href="@($"resualt/{Name}")" class="nav-link text-center">
                 <i class="bi bi-file-text" style="font-size: 1.6rem;"></i>
                 <p style="font-size: 0.8rem;margin-bottom: 0px;">核酸结果</p>
             </NavLink>
@@ -28,6 +28,5 @@
 
 @code
 {
-    [Parameter]
-    public string Id {get;set;} = string.Empty;
+    [Parameter] public string Name {get;set;}= string.Empty;
 }
